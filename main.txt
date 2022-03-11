@@ -1,10 +1,7 @@
 git add .
 git commit -m "create / update some features"
 git push -u origin main
-
-<<<<<<< Progress
+<<<<<<< Create Navigation
 ALIF : 00:41:34
-Create Navigation
 =======
-RIZKI : -
->>>>>>> 647e1dbae82376e2cfd751817e232a81854d535a
+>>>>>>> Home Section
