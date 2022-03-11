@@ -2,9 +2,9 @@ git add .
 git commit -m "create / update some features"
 git push -u origin main
 
-<<<<<<< HEAD
-
-test
+<<<<<<< Progress
+ALIF : 00:41:34
+Create Navigation
 =======
-ALIF : 15:00
+RIZKI : -
 >>>>>>> 647e1dbae82376e2cfd751817e232a81854d535a
