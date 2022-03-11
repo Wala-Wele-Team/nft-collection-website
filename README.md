@@ -1,13 +1,12 @@
-# How to Create NFT Collection Landing Page in React JS
+# NFT Collection Website
 
-This repository contains starter code for NFT Collection Website in ReactJS. <br />
+NFT website collaboration project. <br />
 
 View Demo👇: <br />
 https://the-weirdos.netlify.app/ <br />
 
-If you want to learn how to create it please follow below tutorial👇: <br />
-
-https://youtu.be/edr2o59Twrs <br />
+Thanks to: <br />
+codebucks for inspiration and awesome website.
 
 ### Images of The NFT Collection Website:
 ![HOME](https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code/blob/main/Home%20-%20Desktop.png)
