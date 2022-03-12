@@ -1,5 +1,5 @@
 {
-  "name": "the-weirdos-starter-code",
+  "name": "nft-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,6 +46,6 @@
     ]
   },
   "devDependencies": {
-    "nth-check": "^2.0.1"
+    "nth-check": "^1.0.2"
   }
 }
