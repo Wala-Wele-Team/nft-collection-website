@@ -1,6 +1,9 @@
+UPDATE REPOSITORY
+git pull origin main
 git add .
 git commit -m "create / update some features"
 git push -u origin main
+
 <<<<<<< Create Navigation
 ALIF : 00:41:34
 =======
