@@ -6,10 +6,10 @@ Thanks to: <br />
 codebucks for inspiration and awesome website.
 
 ### Images of The NFT Collection Website:
-![HOME](https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code/blob/main/Home%20-%20Desktop.png)
-![ABOUT](https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code/blob/main/Home-2%20-%20Desktop.png)
-![HOME](https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code/blob/main/Home-1%20-%20Mobile.png)
-![MENU](https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code/blob/main/Home-2-%20Mobile.png)
+![HOME](https://github.com/altrawan/nft-collection-website/blob/main/Home-1%20-%20Desktop.png)
+![ABOUT](https://github.com/altrawan/nft-collection-website/blob/main/Home-2%20-%20Desktop.png)
+![HOME](https://github.com/altrawan/nft-collection-website/blob/main/Home-1%20-%20Mobile.png)\
+![MENU](https://github.com/altrawan/nft-collection-website/blob/main/Home-2%20-%20Mobile.png)
 
 
 ### Resources Used in This Project
