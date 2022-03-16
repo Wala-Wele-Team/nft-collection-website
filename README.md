@@ -1,9 +1,6 @@
 # NFT Collection Website
 
-NFT website collaboration project. <br />
-
-View Demo👇: <br />
-https://the-weirdos.netlify.app/ <br />
+NFT collection website collaboration project. <br />
 
 Thanks to: <br />
 codebucks for inspiration and awesome website.
