@@ -21,7 +21,7 @@ const Title = styled.h1`
   text-transform: uppercase;
   color: ${(props) => props.theme.body};
   margin: 1rem auto;
-  border-bottom: 2px solid ${(props) => props.theme.body};
+  border-bottom: 2px solid ${(props) => props.theme.couroselColor};
   width: fit-content;
 `;
 
@@ -31,7 +31,7 @@ const Container = styled.div`
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-content: center;
 `;
 
 const Box = styled.div`
@@ -52,7 +52,6 @@ const Faq = () => {
       pinSpacing: false,
       scrub: true,
     });
-
     return () => {};
   }, []);
 
