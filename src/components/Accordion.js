@@ -54,15 +54,14 @@ const Accordion = ({ title, children }) => {
         <Name>
           <span>{title}</span>
         </Name>
-        {collapse ? (
+        {
+          collapse ? 
           <Indicator>
             <Minus />
-          </Indicator>
-        ) : (
-          <Indicator>
+          </Indicator> : <Indicator>
             <Plus />
           </Indicator>
-        )}
+        }
       </Title>
       <Reveal clicked={collapse}>{children}</Reveal>
     </Container>
