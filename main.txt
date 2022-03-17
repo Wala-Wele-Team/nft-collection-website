@@ -8,7 +8,11 @@ git push -u github main
 <<<<<<< Create Navigation
 ALIF : 00:41:34
 =======
+<<<<<<< HEAD
 BERHASIL
 test
 testtt
+=======
+RIZKI : 1:50:15-
+>>>>>>> c02ccb86f9ee3912cec31e02453d43905776ca5a
 >>>>>>> Home Section
