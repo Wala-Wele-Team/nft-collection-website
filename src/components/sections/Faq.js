@@ -51,8 +51,11 @@ const Faq = () => {
       pin: true,
       pinSpacing: false,
       scrub: true,
+      // markers: true,
     });
-    return () => {};
+    return () => {
+      ScrollTrigger.kill();
+    };
   }, []);
 
   return (
