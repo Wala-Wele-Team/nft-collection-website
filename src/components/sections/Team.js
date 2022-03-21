@@ -2,14 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 // Import images
-import img1 from "../../assets/Nfts/bighead-9.svg";
-import img2 from "../../assets/Nfts/bighead-1.svg";
 import img3 from "../../assets/Nfts/bighead-2.svg";
-import img4 from "../../assets/Nfts/bighead-3.svg";
-import img5 from "../../assets/Nfts/bighead-4.svg";
 import img6 from "../../assets/Nfts/bighead-5.svg";
 import img7 from "../../assets/Nfts/bighead-6.svg";
-import img8 from "../../assets/Nfts/bighead-7.svg";
 import img9 from "../../assets/Nfts/bighead-8.svg";
 import ConfettiComponent from "../Confetti";
 
@@ -70,6 +65,10 @@ const ImageContainer = styled.div`
   border: 1px solid ${(props) => props.theme.text};
   padding: 1rem;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   border-radius: 20px;
   cursor: pointer;
 
@@ -117,23 +116,26 @@ const Team = () => {
       <ConfettiComponent />
       <Title>Team</Title>
       <Container>
-        <MemberComponent img={img1} name="altrawan" position="founder" />
-        <MemberComponent img={img2} name="sereinisime" position="founder" />
-        <MemberComponent img={img3} name="ranu nadea" position="co-founder" />
-        <MemberComponent img={img4} name="agus gumilar" position="director" />
-        <MemberComponent img={img5} name="dio mortez" position="artist" />
         <MemberComponent
           img={img6}
-          name="kinand"
-          position="social media manager"
+          name="altrawan"
+          position="founder &amp; Backend Developer"
         />
         <MemberComponent
           img={img7}
-          name="tatang"
-          position="blockchain specialist"
+          name="sereinisme"
+          position="founder &amp; Frontend Developer"
         />
-        <MemberComponent img={img8} name="deni" position="web3 developer" />
-        <MemberComponent img={img9} name="gugun" position="graphic designer" />
+        <MemberComponent
+          img={img3}
+          name="ranu nadea"
+          position="co-founder &amp; content creator"
+        />
+        <MemberComponent
+          img={img9}
+          name="dio mortez"
+          position="artist &amp; graphic designer"
+        />
       </Container>
     </Section>
   );

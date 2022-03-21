@@ -9,7 +9,7 @@ const ConfettiComponent = () => {
       numberOfPieces={150}
       gravity={0.01}
       width={width}
-      height={height * 1.5}
+      height={height}
     />
   );
 };
