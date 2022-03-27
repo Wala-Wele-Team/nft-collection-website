@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "styled-components";
-import Logo from "./Logo";
-import Button from "./Button";
+import React from 'react';
+import styled from 'styled-components';
+import Logo from './Logo';
+import Button from './Button';
 
 const Section = styled.section`
   width: 100vw;
@@ -31,7 +31,7 @@ const MenuItem = styled.li`
   cursor: pointer;
 
   &::after {
-    content: " ";
+    content: ' ';
     display: block;
     width: 0%;
     height: 2px;
@@ -45,17 +45,27 @@ const MenuItem = styled.li`
 `;
 
 const Navigation = () => {
+  const scrollTo = (id) => {
+    let element = document.getElementById(id);
+
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    });
+  };
+
   return (
-    <Section>
+    <Section id="navigation">
       <NavBar>
         <Logo />
         <Menu>
-          <MenuItem>Home</MenuItem>
-          <MenuItem>About</MenuItem>
-          <MenuItem>Roadmap</MenuItem>
-          <MenuItem>Showcase</MenuItem>
-          <MenuItem>Team</MenuItem>
-          <MenuItem>Faq</MenuItem>
+          <MenuItem onClick={() => scrollTo('home')}>Home</MenuItem>
+          <MenuItem onClick={() => scrollTo('about')}>About</MenuItem>
+          <MenuItem onClick={() => scrollTo('roadmap')}>Roadmap</MenuItem>
+          <MenuItem onClick={() => scrollTo('showcase')}>Showcase</MenuItem>
+          <MenuItem onClick={() => scrollTo('team')}>Team</MenuItem>
+          <MenuItem onClick={() => scrollTo('faq')}>Faq</MenuItem>
         </Menu>
         <Button text="Connect Wallet" link="#" />
       </NavBar>

@@ -160,7 +160,7 @@ const Roadmap = () => {
   }, []);
 
   return (
-    <Section>
+    <Section id="roadmap">
       <Title>RoadMap</Title>
       <Container>
         <SvgContainer>

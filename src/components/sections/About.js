@@ -1,8 +1,8 @@
-import React from "react";
-import styled, { ThemeProvider } from "styled-components";
-import Carousel from "../Carousel";
-import Button from "../Button";
-import { dark } from "../../styles/Themes";
+import React from 'react';
+import styled, { ThemeProvider } from 'styled-components';
+import Carousel from '../Carousel';
+import Button from '../Button';
+import { dark } from '../../styles/Themes';
 
 const Section = styled.section`
   min-height: 100vh;
@@ -68,7 +68,7 @@ const ButtonContainer = styled.div`
 
 const About = () => {
   return (
-    <Section>
+    <Section id="about">
       <Container>
         <Box>
           <Carousel />

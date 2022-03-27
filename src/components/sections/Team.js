@@ -1,12 +1,12 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 // Import images
-import img3 from "../../assets/Nfts/bighead-2.svg";
-import img6 from "../../assets/Nfts/bighead-5.svg";
-import img7 from "../../assets/Nfts/bighead-6.svg";
-import img9 from "../../assets/Nfts/bighead-8.svg";
-import ConfettiComponent from "../Confetti";
+import img3 from '../../assets/Nfts/bighead-2.svg';
+import img6 from '../../assets/Nfts/bighead-5.svg';
+import img7 from '../../assets/Nfts/bighead-6.svg';
+import img9 from '../../assets/Nfts/bighead-8.svg';
+import ConfettiComponent from '../Confetti';
 
 const Section = styled.section`
   min-height: 100vh;
@@ -98,7 +98,7 @@ const Position = styled.h2`
   font-weight: 400;
 `;
 
-const MemberComponent = ({ img, name = " ", position = " " }) => {
+const MemberComponent = ({ img, name = ' ', position = ' ' }) => {
   return (
     <Item>
       <ImageContainer>
@@ -112,7 +112,7 @@ const MemberComponent = ({ img, name = " ", position = " " }) => {
 
 const Team = () => {
   return (
-    <Section>
+    <Section id="team">
       <ConfettiComponent />
       <Title>Team</Title>
       <Container>

@@ -68,10 +68,10 @@ const DrawSvg = () => {
         onToggle: (self) => {
           if (self.isActive) {
             // console.log("Scrolling is active");
-            ballRef.current.styled.display = 'none';
+            ballRef.current.style.display = 'none';
           } else {
             // console.log("Scrolling is not active");
-            ballRef.current.styled.display = 'inline-block';
+            ballRef.current.style.display = 'inline-block';
           }
         },
       },

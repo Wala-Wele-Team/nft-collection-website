@@ -1,12 +1,12 @@
-import React from "react";
-import styled from "styled-components";
-import Banner from "./Banner";
-import Logo from "./Logo";
+import React from 'react';
+import styled from 'styled-components';
+import Banner from './Banner';
+import Logo from './Logo';
 
-import Facebook from "../Icons/Facebook";
-import Instagram from "../Icons/Instagram";
-import Twitter from "../Icons/Twitter";
-import LinkedIn from "../Icons/LinkedIn";
+import Facebook from '../Icons/Facebook';
+import Instagram from '../Icons/Instagram';
+import Twitter from '../Icons/Twitter';
+import LinkedIn from '../Icons/LinkedIn';
 
 const Section = styled.section`
   min-height: 100vh;
@@ -66,7 +66,7 @@ const Item = styled.li`
   cursor: pointer;
 
   &::after {
-    content: " ";
+    content: ' ';
     display: block;
     width: 0%;
     height: 2px;
@@ -92,6 +92,16 @@ const Bottom = styled.div`
 `;
 
 const Footer = () => {
+  const scrollTo = (id) => {
+    let element = document.getElementById(id);
+
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    });
+  };
+
   return (
     <Section>
       <Banner />
@@ -130,19 +140,18 @@ const Footer = () => {
           </IconList>
         </Left>
         <MenuItems>
-          <Item>Home</Item>
-          <Item>About</Item>
-          <Item>Roadmap</Item>
-
-          <Item>Showcase</Item>
-          <Item>Team</Item>
-          <Item>Faq</Item>
+          <Item onClick={() => scrollTo('home')}>Home</Item>
+          <Item onClick={() => scrollTo('about')}>About</Item>
+          <Item onClick={() => scrollTo('roadmap')}>Roadmap</Item>
+          <Item onClick={() => scrollTo('showcase')}>Showcase</Item>
+          <Item onClick={() => scrollTo('team')}>Team</Item>
+          <Item onClick={() => scrollTo('faq')}>Faq</Item>
         </MenuItems>
       </Container>
       <Bottom>
         <span>&copy; 2022 Wala Wele Club. All rights reserved.</span>
         <span>
-          Made with &#10084; by{" "}
+          Made with &#10084; by{' '}
           <a href="http://github.com" target="_blank" rel="noopener noreferrer">
             Wala Wele Team
           </a>
