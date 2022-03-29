@@ -1,6 +1,6 @@
 # NFT Collection Website
 
-NFT collection website collaboration project. <br />
+> NFT collection website collaboration project. <br />
 
 ### Images of The NFT Collection Website:
 ![HOME](https://github.com/altrawan/nft-collection-website/blob/main/Home-1%20-%20Desktop.png)
