@@ -51,7 +51,7 @@ const Menu = styled.ul`
     backdrop-filter: blur(2px);
 
     transform: ${(props) =>
-      props.click ? 'translateY(0)' : 'translateY(100%)'};
+      props.click ? 'translateY(0)' : 'translateY(1000%)'};
     transition: all 0.3s ease;
 
     flex-direction: column;
