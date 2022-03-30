@@ -1,9 +1,6 @@
 # NFT Collection Website
 
-NFT collection website collaboration project. <br />
-
-Thanks to: <br />
-codebucks for inspiration and awesome website.
+> NFT collection website collaboration project. <br />
 
 ### Images of The NFT Collection Website:
 ![HOME](https://github.com/altrawan/nft-collection-website/blob/main/Home-1%20-%20Desktop.png)
